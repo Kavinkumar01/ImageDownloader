@@ -1,3 +1,9 @@
+If facing any issue with path the below can be used to find 
+    String filePath = "F:/fairytail/Pro/test.txt"; // Path to your text file
+    Path pathToFile = Paths.get(filePath);
+    System.out.println("path: "+pathToFile.toAbsolutePath());
+
+    
 The below can be used for getting the urls from the console
 
 
